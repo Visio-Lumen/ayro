@@ -1,6 +1,7 @@
 const readline = require('readline');
 //unfinished
 let points = 0;
+let time_studied = 0;
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -17,7 +18,9 @@ function focusTime() {
   process.stdin.once('data', () => {
     const elapsedTime = Date.now() - startTime;
     const minutes = Math.ceil(elapsedTime / (60 * 1000));
+    time_studied = time_studied + minutes;
     const earnedPoints = (minutes * (minutes + 1)) / 2;
+    points = points + earnedPoints;
     console.log();
     console.log(`Focus time ended. You earned ${earnedPoints} points.`);
 
@@ -39,6 +42,7 @@ function showStudyTips() {
 }
 
 function generateReport() {
+  console.log("You spent "+time_studied+" minutes focused and earned "+points+" points. You've checked off [unfinished] items off of your todo list, and listened to [unfinished] minutes of music.");
 }
 
 function endProgram() {
@@ -56,7 +60,7 @@ const commandFunctions = {
 
 rl.on('line', (input) => {
   if (input === "command list") {
-    const commandList = "commands currently working: .focustime .end | commands not working: .music .todolist .studytips .report";
+    const commandList = "commands currently working: .focustime .end | commands not working: .music .todolist .studytips | commands semi-working: .report";
     console.log(`${commandList}`);
   } else if (input in commandFunctions) {
     commandFunctions[input]();
