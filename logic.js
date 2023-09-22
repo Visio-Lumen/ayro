@@ -1,5 +1,5 @@
 const readline = require('readline');
-
+//unfinished
 let points = 0;
 
 const rl = readline.createInterface({
