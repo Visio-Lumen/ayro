@@ -67,6 +67,33 @@ function displayTodoList() {
 
 function showStudyTips() {
 //do with aidan
+  
+  rl.question('How many hours do you have to focus (approx.)?', name => {
+    switch(name){
+      case '0':
+        console.log("?");
+        break;
+      case '1':
+        console.log("study tip for one hour");
+        break;
+      case '2':
+        console.log("study tip for two hours");
+        break;
+      case '3':
+        console.log("study tip for three hours");
+        break;
+      case '4':
+        console.log("study tip for four hours");
+        break;
+      default:
+        console.log("study tip for 5+ hours");
+        break;
+    }
+
+
+    
+  });
+
 }
 
 function generateReport() {
@@ -78,7 +105,7 @@ function endProgram() {
 }
 
 const commandFunctions = {
-  ".focustime": focusTime,
+  ".focus": focusTime,
   ".music": playMusic,
   ".todolist": displayTodoList,
   ".studytips": showStudyTips,
@@ -87,8 +114,8 @@ const commandFunctions = {
 };
 
 rl.on('line', (input) => {
-  if (input === "command list") {
-    const commandList = "commands currently working: .focustime .end | commands not working: .todolist(not implementing in logic) .studytips(waiting for aidan to do this) | commands semi-working: .report(unfinished) .music(not implementing actual music in logic)";
+  if (input === "cl") {
+    const commandList = "commands currently working: .focus .end | commands not working: .todolist(not implementing in logic) | commands semi-working: .report(unfinished) .music(not implementing actual music in logic) .studytips(studytips just numbers for now)";
     console.log(`${commandList}`);
   } else if (input in commandFunctions) {
     commandFunctions[input]();
