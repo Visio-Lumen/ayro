@@ -39,6 +39,7 @@ let musicStartTime = 0;
 let musicEndTime = 0;
 
 function playMusic() { //choose music with aidan
+  console.log("Music playback beginning.")
   if (isMusicPlaying) {
     console.log("Music is already playing.");
     return;
@@ -55,6 +56,7 @@ function playMusic() { //choose music with aidan
     const musicDuration = (musicEndTime - musicStartTime) / 1000; 
     time_music += Math.ceil(musicDuration / 60); 
     isMusicPlaying = false;
+    console.log();
     console.log(`Music playback ended. You listened to ${musicDuration.toFixed(2)} seconds.`);
     process.stdin.setRawMode(false);
     rl.prompt();
