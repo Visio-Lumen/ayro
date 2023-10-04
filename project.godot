@@ -14,6 +14,11 @@ config/name="Project Foci"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_width=1170
+window/size/viewport_height=2532
+
 [rendering]
 
 renderer/rendering_method="mobile"
