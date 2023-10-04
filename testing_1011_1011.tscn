@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpf44jvgtyyfo"]
+
+[ext_resource type="Texture2D" uid="uid://dcuv5mxg70ok5" path="res://img/shut.jpg" id="1_aiaya"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mpccc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_aiaya")
+}],
+"loop": true,
+"name": &"poop",
+"speed": 5.0
+}]
+
+[node name="testing 1011 1011" type="Node2D"]
+
+[node name="testing anim sprite 1101" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_mpccc")
+animation = &"poop"
