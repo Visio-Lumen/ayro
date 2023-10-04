@@ -15,6 +15,6 @@ animations = [{
 
 [node name="testing 1011 1011" type="Node2D"]
 
-[node name="testing anim sprite 1101" type="AnimatedSprite2D" parent="."]
+[node name="poop" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_mpccc")
 animation = &"poop"
