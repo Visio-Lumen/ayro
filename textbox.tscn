@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c083yn3qqnli4"]
+
+[node name="Textbox" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 689.0
+offset_bottom = 1176.0
+color = Color(0.141176, 0.184314, 0.227451, 1)
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 35.0
+offset_top = 69.0
+offset_right = 623.0
+offset_bottom = 1032.0
