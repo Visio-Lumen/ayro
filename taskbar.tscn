@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://cov8qj3jrd2bo"]
+[gd_scene load_steps=2 format=3 uid="uid://cov8qj3jrd2bo"]
+
+[ext_resource type="Script" path="res://button1.gd" id="1_3w1qw"]
 
 [node name="taskbar" type="Node2D"]
 
@@ -7,3 +9,13 @@ offset_top = 1071.0
 offset_right = 650.0
 offset_bottom = 1154.0
 color = Color(0.0823529, 0.113725, 0.145098, 1)
+
+[node name="button1" type="Button" parent="."]
+offset_left = 26.0
+offset_top = 1082.0
+offset_right = 113.0
+offset_bottom = 1137.0
+text = "button1"
+script = ExtResource("1_3w1qw")
+
+[connection signal="pressed" from="button1" to="button1" method="_on_pressed"]
