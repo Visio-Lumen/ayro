@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://cov8qj3jrd2bo"]
+[gd_scene load_steps=3 format=3 uid="uid://cov8qj3jrd2bo"]
 
 [ext_resource type="Script" path="res://button1.gd" id="1_3w1qw"]
+[ext_resource type="Script" path="res://button2.gd" id="2_n4yxa"]
 
 [node name="taskbar" type="Node2D"]
 
@@ -25,7 +26,7 @@ offset_right = 107.0
 offset_bottom = 1141.0
 text = "notes
 "
-script = ExtResource("1_3w1qw")
+script = ExtResource("2_n4yxa")
 
 [connection signal="pressed" from="button1" to="button1" method="_on_pressed"]
 [connection signal="pressed" from="button2" to="button2" method="_on_pressed"]
