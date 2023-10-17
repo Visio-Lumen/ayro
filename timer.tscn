@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://bcq8h2yb3w412"]
+[gd_scene load_steps=5 format=3 uid="uid://bcq8h2yb3w412"]
 
+[ext_resource type="Script" path="res://Background.gd" id="1_54uu5"]
 [ext_resource type="PackedScene" uid="uid://cov8qj3jrd2bo" path="res://taskbar.tscn" id="1_lmuxb"]
 [ext_resource type="Script" path="res://Label.gd" id="2_ymx1t"]
 
@@ -12,6 +13,7 @@ default_font_size = 30
 offset_right = 650.0
 offset_bottom = 1154.0
 color = Color(0.141176, 0.184314, 0.227451, 1)
+script = ExtResource("1_54uu5")
 
 [node name="taskbar" parent="." instance=ExtResource("1_lmuxb")]
 
