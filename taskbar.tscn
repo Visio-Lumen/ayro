@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cov8qj3jrd2bo"]
+
+[node name="taskbar" type="Node2D"]
+
+[node name="Taskbar" type="ColorRect" parent="."]
+offset_top = 1071.0
+offset_right = 650.0
+offset_bottom = 1154.0
+color = Color(0.0823529, 0.113725, 0.145098, 1)
