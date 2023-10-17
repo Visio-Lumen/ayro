@@ -3,7 +3,8 @@ extends Button
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	position.y = $"../bar".position.y + ((10.0/1152)*get_viewport_rect().size.y)
+	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
