@@ -1,4 +1,7 @@
-res://textbox.tscn
 res://taskbar.tscn
+res://textbox.tscn
 res://timer.tscn
+res://button1.gd
 res://button2.gd
+res://Background.gd
+res://Notes.gd
