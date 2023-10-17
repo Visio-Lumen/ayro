@@ -5,4 +5,5 @@ func _ready():
 	position.x = get_viewport_rect().size.x - size.x
 	position.y = get_viewport_rect().size.y - size.y
 	position /= 2
-	position.y -= 55
+	position.y -= ((float(55)/float(1152))*float(get_viewport_rect().size.y))
+
