@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://c083yn3qqnli4"]
+[gd_scene load_steps=4 format=3 uid="uid://c083yn3qqnli4"]
 
+[ext_resource type="Script" path="res://Background.gd" id="1_7jdan"]
 [ext_resource type="PackedScene" uid="uid://cov8qj3jrd2bo" path="res://taskbar.tscn" id="1_qmequ"]
+
+[sub_resource type="Theme" id="Theme_gjd2g"]
+default_font_size = 30
 
 [node name="Textbox" type="Node2D"]
 
@@ -8,12 +12,14 @@
 offset_right = 650.0
 offset_bottom = 1154.0
 color = Color(0.141176, 0.184314, 0.227451, 1)
+script = ExtResource("1_7jdan")
 
 [node name="Notes" type="TextEdit" parent="."]
 offset_left = 16.0
 offset_top = 15.0
 offset_right = 632.0
 offset_bottom = 1045.0
+theme = SubResource("Theme_gjd2g")
 placeholder_text = "Notes"
 
 [node name="taskbar" parent="." instance=ExtResource("1_qmequ")]

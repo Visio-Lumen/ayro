@@ -2,3 +2,4 @@ res://taskbar.tscn
 res://textbox.tscn
 res://button1.gd
 res://timer.tscn
+res://Background.gd

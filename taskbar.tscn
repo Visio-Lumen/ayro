@@ -11,11 +11,21 @@ offset_bottom = 1154.0
 color = Color(0.0823529, 0.113725, 0.145098, 1)
 
 [node name="button1" type="Button" parent="."]
-offset_left = 26.0
-offset_top = 1082.0
-offset_right = 113.0
-offset_bottom = 1137.0
-text = "button1"
+offset_left = 152.0
+offset_top = 1085.0
+offset_right = 239.0
+offset_bottom = 1140.0
+text = "timer"
+script = ExtResource("1_3w1qw")
+
+[node name="button2" type="Button" parent="."]
+offset_left = 20.0
+offset_top = 1086.0
+offset_right = 107.0
+offset_bottom = 1141.0
+text = "notes
+"
 script = ExtResource("1_3w1qw")
 
 [connection signal="pressed" from="button1" to="button1" method="_on_pressed"]
+[connection signal="pressed" from="button2" to="button2" method="_on_pressed"]
