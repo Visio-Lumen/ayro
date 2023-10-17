@@ -1,5 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697551123
+::res://::1697552793
 icon.svg::CompressedTexture2D::7652934637554019782::1697466602::1697466611::1::::<><>::
 README.md::TextFile::-1::1697466645::0::1::::<><>::
-textbox.tscn::PackedScene::6597430585879110465::1697467001::0::1::::<><>::
+button1.gd::GDScript::-1::1697551974::0::1::::<>Button<>::
+Background.gd::GDScript::-1::1697552026::0::1::::<>ColorRect<>::
+Label.gd::GDScript::-1::1697552770::0::1::::<>Label<>::
+Screen Shot 2023-10-17 at 9.26.15 AM.png::CompressedTexture2D::7793281941526978102::1697552793::1697552793::1::::<><>::
+timer.tscn::PackedScene::2561846031642261651::1697552778::0::1::::<><>::uid://cov8qj3jrd2bo::::res://taskbar.tscn<>res://Label.gd
+taskbar.tscn::PackedScene::5800869861014143076::1697552777::0::1::::<><>::res://button1.gd
+textbox.tscn::PackedScene::6597430585879110465::1697552777::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn

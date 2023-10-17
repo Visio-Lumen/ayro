@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://bcq8h2yb3w412"]
+[gd_scene load_steps=4 format=3 uid="uid://bcq8h2yb3w412"]
 
 [ext_resource type="PackedScene" uid="uid://cov8qj3jrd2bo" path="res://taskbar.tscn" id="1_lmuxb"]
+[ext_resource type="Script" path="res://Label.gd" id="2_ymx1t"]
+
+[sub_resource type="Theme" id="Theme_b6jq1"]
+default_font_size = 30
 
 [node name="Timer" type="Node2D"]
 
@@ -12,8 +16,19 @@ color = Color(0.141176, 0.184314, 0.227451, 1)
 [node name="taskbar" parent="." instance=ExtResource("1_lmuxb")]
 
 [node name="Label" type="Label" parent="."]
-offset_left = 44.0
-offset_top = 49.0
-offset_right = 339.0
-offset_bottom = 147.0
-text = "timer screen"
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -198.5
+offset_top = -49.0
+offset_right = 198.5
+offset_bottom = 49.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_b6jq1")
+text = "timer will be in this textbox"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("2_ymx1t")

@@ -3,3 +3,4 @@ res://textbox.tscn
 res://button1.gd
 res://timer.tscn
 res://Background.gd
+res://Label.gd
