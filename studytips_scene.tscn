@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://ccrwvm7imo5pu"]
+
+[ext_resource type="Script" path="res://studytips_scene.gd" id="1_5x6r1"]
+[ext_resource type="Script" path="res://Background.gd" id="1_7htld"]
+[ext_resource type="PackedScene" uid="uid://cov8qj3jrd2bo" path="res://taskbar.tscn" id="2_mskc4"]
+
+[node name="studytips_scene" type="Node2D"]
+script = ExtResource("1_5x6r1")
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 650.0
+offset_bottom = 1154.0
+color = Color(0.141176, 0.184314, 0.227451, 1)
+script = ExtResource("1_7htld")
+metadata/_edit_use_anchors_ = true
+
+[node name="taskbar" parent="." instance=ExtResource("2_mskc4")]

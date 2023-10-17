@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://cov8qj3jrd2bo"]
+[gd_scene load_steps=6 format=3 uid="uid://cov8qj3jrd2bo"]
 
-[ext_resource type="Script" path="res://button1.gd" id="1_3w1qw"]
 [ext_resource type="Script" path="res://taskbar.gd" id="1_mtuuk"]
 [ext_resource type="Script" path="res://bar.gd" id="2_jwrfn"]
-[ext_resource type="Script" path="res://button2.gd" id="2_n4yxa"]
+[ext_resource type="Script" path="res://timer.gd" id="3_b8x17"]
+[ext_resource type="Script" path="res://note.gd" id="4_am1h8"]
+[ext_resource type="Script" path="res://studytips.gd" id="5_0a23e"]
 
 [node name="taskbar" type="Node2D"]
 script = ExtResource("1_mtuuk")
@@ -15,22 +16,32 @@ offset_bottom = 1154.0
 color = Color(0.0823529, 0.113725, 0.145098, 1)
 script = ExtResource("2_jwrfn")
 
-[node name="button1" type="Button" parent="."]
+[node name="timer" type="Button" parent="."]
 offset_left = 152.0
 offset_top = 1085.0
 offset_right = 239.0
 offset_bottom = 1140.0
 text = "timer"
-script = ExtResource("1_3w1qw")
+script = ExtResource("3_b8x17")
 
-[node name="button2" type="Button" parent="."]
+[node name="notes" type="Button" parent="."]
 offset_left = 20.0
 offset_top = 1086.0
 offset_right = 107.0
 offset_bottom = 1141.0
 text = "notes
 "
-script = ExtResource("2_n4yxa")
+script = ExtResource("4_am1h8")
 
-[connection signal="pressed" from="button1" to="button1" method="_on_pressed"]
-[connection signal="pressed" from="button2" to="button2" method="_on_pressed"]
+[node name="studytips" type="Button" parent="."]
+offset_left = 279.0
+offset_top = 1087.0
+offset_right = 366.0
+offset_bottom = 1142.0
+text = "studytips"
+script = ExtResource("5_0a23e")
+
+[connection signal="pressed" from="timer" to="timer" method="_on_pressed"]
+[connection signal="pressed" from="notes" to="notes" method="_on_pressed"]
+[connection signal="pressed" from="studytips" to="." method="_on_studytips_pressed"]
+[connection signal="pressed" from="studytips" to="studytips" method="_on_pressed"]

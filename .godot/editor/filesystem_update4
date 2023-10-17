@@ -8,3 +8,6 @@ res://Notes.gd
 res://taskbar.gd
 res://bar.gd
 res://Label.gd
+res://note.gd
+res://studytips.gd
+res://studytips_scene.tscn

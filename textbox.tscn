@@ -14,6 +14,7 @@ offset_right = 650.0
 offset_bottom = 1154.0
 color = Color(0.141176, 0.184314, 0.227451, 1)
 script = ExtResource("1_7jdan")
+metadata/_edit_use_anchors_ = true
 
 [node name="Notes" type="TextEdit" parent="."]
 offset_right = 8.0
