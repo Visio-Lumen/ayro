@@ -1,12 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697559818
-Background.gd::GDScript::-1::1697559766::0::1::::<>ColorRect<>::
-button1.gd::GDScript::-1::1697559766::0::1::::<>Button<>::
-button2.gd::GDScript::-1::1697559766::0::1::::<>Button<>::
+::res://::1697646501
+Background.gd::GDScript::-1::1697569535::0::1::::<>ColorRect<>::
+bar.gd::GDScript::-1::1697563672::0::1::::<>ColorRect<>::
 icon.svg::CompressedTexture2D::7652934637554019782::1697559766::1697559766::1::::<><>::
-Label.gd::GDScript::-1::1697559766::0::1::::<>Label<>::
+image (1).png::CompressedTexture2D::3756133071450353657::1697646501::1697646502::1::::<><>::
+Label.gd::GDScript::-1::1697567036::0::1::::<>Label<>::
+note.gd::GDScript::-1::1697646337::0::1::::<>Button<>::
+Notes.gd::GDScript::-1::1697562457::0::1::::<>TextEdit<>::
 README.md::TextFile::-1::1697559766::0::1::::<><>::
 Screen Shot 2023-10-17 at 9.26.15 AM.png::CompressedTexture2D::7793281941526978102::1697559766::1697559766::1::::<><>::
-taskbar.tscn::PackedScene::5800869861014143076::1697559766::0::1::::<><>::res://button1.gd<>res://button2.gd
-textbox.tscn::PackedScene::6597430585879110465::1697559766::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn
-timer.tscn::PackedScene::2561846031642261651::1697559766::0::1::::<><>::uid://cov8qj3jrd2bo::::res://taskbar.tscn<>res://Label.gd
+studytips.gd::GDScript::-1::1697573972::0::1::::<>Button<>::
+studytips_scene.gd::GDScript::-1::1697569820::0::1::::<>Node2D<>::
+studytips_scene.tscn::PackedScene::4949687432088196026::1697646358::0::1::::<><>::res://studytips_scene.gd<>res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn
+taskbar.gd::GDScript::-1::1697569838::0::1::::<>Node2D<>::
+taskbar.tscn::PackedScene::5800869861014143076::1697646358::0::1::::<><>::res://taskbar.gd<>res://bar.gd<>res://timer.gd<>res://note.gd<>res://studytips.gd
+textbox.tscn::PackedScene::6597430585879110465::1697646358::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn<>res://Notes.gd
+timer.gd::GDScript::-1::1697568895::0::1::::<>Button<>::
+timer.tscn::PackedScene::2561846031642261651::1697646358::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn<>res://Label.gd

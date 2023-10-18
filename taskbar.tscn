@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://cov8qj3jrd2bo"]
+[gd_scene load_steps=7 format=3 uid="uid://cov8qj3jrd2bo"]
 
 [ext_resource type="Script" path="res://taskbar.gd" id="1_mtuuk"]
 [ext_resource type="Script" path="res://bar.gd" id="2_jwrfn"]
 [ext_resource type="Script" path="res://timer.gd" id="3_b8x17"]
 [ext_resource type="Script" path="res://note.gd" id="4_am1h8"]
 [ext_resource type="Script" path="res://studytips.gd" id="5_0a23e"]
+[ext_resource type="Script" path="res://report1.gd" id="6_cieof"]
 
 [node name="taskbar" type="Node2D"]
 script = ExtResource("1_mtuuk")
@@ -17,31 +18,70 @@ color = Color(0.0823529, 0.113725, 0.145098, 1)
 script = ExtResource("2_jwrfn")
 
 [node name="timer" type="Button" parent="."]
-offset_left = 152.0
-offset_top = 1085.0
-offset_right = 239.0
-offset_bottom = 1140.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.5
+offset_top = -27.5
+offset_right = 43.5
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
 text = "timer"
 script = ExtResource("3_b8x17")
 
 [node name="notes" type="Button" parent="."]
-offset_left = 20.0
-offset_top = 1086.0
-offset_right = 107.0
-offset_bottom = 1141.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.5
+offset_top = -27.5
+offset_right = 43.5
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
 text = "notes
 "
 script = ExtResource("4_am1h8")
 
 [node name="studytips" type="Button" parent="."]
-offset_left = 279.0
-offset_top = 1087.0
-offset_right = 366.0
-offset_bottom = 1142.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.5
+offset_top = -27.5
+offset_right = 43.5
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
 text = "studytips"
 script = ExtResource("5_0a23e")
+
+[node name="report" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.5
+offset_top = -27.5
+offset_right = 43.5
+offset_bottom = 27.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "report
+"
+script = ExtResource("6_cieof")
 
 [connection signal="pressed" from="timer" to="timer" method="_on_pressed"]
 [connection signal="pressed" from="notes" to="notes" method="_on_pressed"]
 [connection signal="pressed" from="studytips" to="." method="_on_studytips_pressed"]
 [connection signal="pressed" from="studytips" to="studytips" method="_on_pressed"]
+[connection signal="pressed" from="report" to="." method="_on_studytips_pressed"]
+[connection signal="pressed" from="report" to="report" method="_on_pressed"]
