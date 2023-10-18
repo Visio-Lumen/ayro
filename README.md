@@ -4,6 +4,7 @@ productivity app in Godot 4.1.1
 -use the viewport relativity equation when changing the position of something   
 -only push working versions to github   
 -dont fw the _delta warnings in console   
+-dont use other versions of godot, only 4.1.1   
 -more rules probably coming
 # viewport relativity equation
 ```
