@@ -14,4 +14,10 @@ color = Color(0.141176, 0.184314, 0.227451, 1)
 script = ExtResource("1_7htld")
 metadata/_edit_use_anchors_ = true
 
+[node name="Label" type="Label" parent="Background"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "studytips"
+
 [node name="taskbar" parent="." instance=ExtResource("2_mskc4")]

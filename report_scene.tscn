@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://chbgy4xxw2o71"]
+
+[ext_resource type="Script" path="res://Background.gd" id="1_wiqoo"]
+[ext_resource type="PackedScene" uid="uid://cov8qj3jrd2bo" path="res://taskbar.tscn" id="2_v03cv"]
+
+[node name="report_scene" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 650.0
+offset_bottom = 1154.0
+color = Color(0.141176, 0.184314, 0.227451, 1)
+script = ExtResource("1_wiqoo")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="Background"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "report"
+
+[node name="taskbar" parent="." instance=ExtResource("2_v03cv")]

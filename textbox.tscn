@@ -22,5 +22,6 @@ offset_bottom = 8.0
 theme = SubResource("Theme_gjd2g")
 placeholder_text = "Notes"
 script = ExtResource("2_73tt5")
+metadata/_edit_use_anchors_ = true
 
 [node name="taskbar" parent="." instance=ExtResource("1_qmequ")]

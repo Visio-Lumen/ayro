@@ -14,7 +14,7 @@ config/name="Ayro"
 run/main_scene="res://textbox.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 boot_splash/bg_color=Color(0.0784314, 0.0823529, 0.152941, 1)
-boot_splash/image="res://image (1).png"
+boot_splash/image="res://Drawing-1.sketchpad (3).png"
 config/icon="res://icon.svg"
 
 [display]

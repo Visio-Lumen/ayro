@@ -2,8 +2,7 @@ res://textbox.tscn
 res://taskbar.tscn
 res://timer.tscn
 res://studytips_scene.tscn
-res://note.gd
-res://timer.gd
-res://studytips.gd
-res://report1.gd
+res://Label.gd
 res://Notes.gd
+res://taskbar.gd
+res://report_scene.tscn
