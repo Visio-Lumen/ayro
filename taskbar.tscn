@@ -11,9 +11,17 @@
 script = ExtResource("1_mtuuk")
 
 [node name="bar" type="ColorRect" parent="."]
-offset_top = 1071.0
-offset_right = 650.0
-offset_bottom = 1154.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -325.0
+offset_top = -41.5
+offset_right = 325.0
+offset_bottom = 41.5
+grow_horizontal = 2
+grow_vertical = 2
 color = Color(0.0823529, 0.113725, 0.145098, 1)
 script = ExtResource("2_jwrfn")
 
