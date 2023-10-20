@@ -1,20 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697666159
-Background.gd::GDScript::-1::1697569535::0::1::::<>ColorRect<>::
-bar.gd::GDScript::-1::1697563672::0::1::::<>ColorRect<>::
-Drawing-1.sketchpad (3).png::CompressedTexture2D::1477475888113249485::1697666159::1697666160::1::::<><>::
-icon.svg::CompressedTexture2D::7652934637554019782::1697559766::1697559766::1::::<><>::
-Label.gd::GDScript::-1::1697567036::0::1::::<>Label<>::
-note.gd::GDScript::-1::1697657933::0::1::::<>Button<>::
-Notes.gd::GDScript::-1::1697658876::0::1::::<>TextEdit<>::
-README.md::TextFile::-1::1697559766::0::1::::<><>::
-report1.gd::GDScript::-1::1697657954::0::1::::<>Button<>::
-Screen Shot 2023-10-17 at 9.26.15 AM.png::CompressedTexture2D::7793281941526978102::1697559766::1697559766::1::::<><>::
-studytips.gd::GDScript::-1::1697657948::0::1::::<>Button<>::
-studytips_scene.gd::GDScript::-1::1697569820::0::1::::<>Node2D<>::
-studytips_scene.tscn::PackedScene::4949687432088196026::1697666078::0::1::::<><>::res://studytips_scene.gd<>res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn
-taskbar.gd::GDScript::-1::1697569838::0::1::::<>Node2D<>::
-taskbar.tscn::PackedScene::5800869861014143076::1697666078::0::1::::<><>::res://taskbar.gd<>res://bar.gd<>res://timer.gd<>res://note.gd<>res://studytips.gd<>res://report1.gd
-textbox.tscn::PackedScene::6597430585879110465::1697666078::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn<>res://Notes.gd
-timer.gd::GDScript::-1::1697657942::0::1::::<>Button<>::
-timer.tscn::PackedScene::2561846031642261651::1697666078::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn<>res://Label.gd
+::res://::1697811477
+Background.gd::GDScript::-1::1697638485::0::1::::<>ColorRect<>::
+bar.gd::GDScript::-1::1697638485::0::1::::<>ColorRect<>::
+Drawing-1.sketchpad (3).png::CompressedTexture2D::1477475888113249485::1697811461::1697811461::1::::<><>::
+icon.svg::CompressedTexture2D::7652934637554019782::1697466602::1697466611::1::::<><>::
+Label.gd::GDScript::-1::1697811461::0::1::::<>Label<>::
+note.gd::GDScript::-1::1697811461::0::1::::<>Button<>::
+Notes.gd::GDScript::-1::1697811461::0::1::::<>TextEdit<>::
+README.md::TextFile::-1::1697811461::0::1::::<><>::
+report1.gd::GDScript::-1::1697811461::0::1::::<>Button<>::
+report_scene.tscn::PackedScene::5266636371399953258::1697811461::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn
+Screen Shot 2023-10-17 at 9.26.15 AM.png::CompressedTexture2D::7793281941526978102::1697552793::1697552793::1::::<><>::
+studytips.gd::GDScript::-1::1697811461::0::1::::<>Button<>::
+studytips_scene.gd::GDScript::-1::1697638485::0::1::::<>Node2D<>::
+studytips_scene.tscn::PackedScene::4949687432088196026::1697811461::0::1::::<><>::res://studytips_scene.gd<>res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn
+taskbar.gd::GDScript::-1::1697811461::0::1::::<>Node2D<>::
+taskbar.tscn::PackedScene::5800869861014143076::1697811461::0::1::::<><>::res://taskbar.gd<>res://bar.gd<>res://timer.gd<>res://note.gd<>res://studytips.gd<>res://report1.gd
+textbox.tscn::PackedScene::6597430585879110465::1697811461::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn<>res://Notes.gd
+timer.gd::GDScript::-1::1697811461::0::1::::<>Button<>::
+timer.tscn::PackedScene::2561846031642261651::1697638531::0::1::::<><>::res://Background.gd<>uid://cov8qj3jrd2bo::::res://taskbar.tscn<>res://Label.gd

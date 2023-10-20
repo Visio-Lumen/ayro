@@ -83,6 +83,6 @@ script = ExtResource("6_cieof")
 [connection signal="pressed" from="notes" to="notes" method="_on_pressed"]
 [connection signal="pressed" from="studytips" to="." method="_on_studytips_pressed"]
 [connection signal="pressed" from="studytips" to="studytips" method="_on_pressed"]
-[connection signal="pressed" from="report" to="." method="_on_studytips_pressed"]
 [connection signal="pressed" from="report" to="." method="_on_report11_pressed"]
+[connection signal="pressed" from="report" to="." method="_on_studytips_pressed"]
 [connection signal="pressed" from="report" to="report" method="_on_pressed"]
