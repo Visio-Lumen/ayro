@@ -1,6 +1,8 @@
-res://textbox.tscn
 res://taskbar.tscn
+res://textbox.tscn
 res://timer.tscn
 res://studytips_scene.tscn
 res://report_scene.tscn
 res://Notes.gd
+res://Timer_node.gd
+res://check test.gd

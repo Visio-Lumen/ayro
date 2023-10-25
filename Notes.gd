@@ -5,11 +5,11 @@ var saved_text = config.load("user://notepad.cfg")
 
 
 func _ready():
-	text = config.get_value("Text", "user")
-	if (text==""):
-		text = ""
+	if str(config.get_value("Text", "user")) == "":
+		pass
+		
 	else:
-		text = config.get_value("Text", "user")
+		text = config.get_value("Text","user") 
 	size = get_viewport_rect().size * .8
 	position.x = get_viewport_rect().size.x - size.x
 	position.y = get_viewport_rect().size.y - size.y
